@@ -1,23 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Login Form</h1>
     <p>A form is a container</p>
     <!-- action - where the form sends data to-->
     <!-- method - what HTTP method (GET/POST) -->
-    <form action="http://wikipedio.org">
+    <form action="/basicTags.html" method="post">
+        <!-- <label>
+            Username:
+            <input name="username" type="text" placeholder="username">
+        </label>
+        <label>
+            Password:
+            <input name="password" type="password" placeholder="password">
 
-        <input name="username" type="text" placeholder="username">  
-        <input name="password" type="password" placeholder="password">
+        </label>  
+        <input type="submit"> -->
+
+        <label for="username" id="username">Username:</label>
+        <input name="username" type="text" placeholder="username" required>
+
+        <label for="password" id="password">Password:</label>
+        <input name="password" type="password" placeholder="password" required=[5,10]>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="email" required>
         <input type="submit">
 
+        <!-- Radio Button -->
+        <!-- Select Tag -->
+        <!-- TextArea Tag -->
+
+
+
     </form>
+    <br>
+    <hr>
+
+    <!-- Radio Button -->
+    <input type="radio">
+
+    <!-- Select Tag -->
+    <input type="checkbox">
     
+    <!-- TextArea Tag -->
 </body>
+
 </html>

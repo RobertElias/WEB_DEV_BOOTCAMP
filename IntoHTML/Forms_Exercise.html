@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Forms Exercise</title>
 </head>
+
 <body>
-    
+    <h1>Register</h1>
+    <form action="/basicTags.html" method="post">
+        <label for="firstname" id="firstname">First Name:</label>
+        <input name="firsname" type="text" placeholder="firstname" required>
+
+        <label for="lastname" id="lastname">Last Name:</label>
+        <input name="lastname" type="text" placeholder="lastname" required>
+        <br>
+        <label for="male">Male:</label>
+        <input name="gender" id="male" type="radio" value="MALE">
+
+        <label for="female">Female:</label>
+        <input name="gender" id="female" type="radio" value="FEMALE">
+
+        <label for="other">Other:</label>
+        <input name="gender" id="other" type="radio" value="OTHER">
+        <br>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="email" required>
+
+        <label for="password" id="password">Password:</label>
+        <input name="password" type="password" placeholder="password" required=[5,10]>
+        <br>
+        <label>Birthday:</label>
+        
+        <select name="MONTH">
+            <option value="Month">Month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="August">August</option>
+            <option value="October">October</option>
+        </select>
+        <section name="DAY">
+            <option value="DAY">Day</option>
+            <option>1</option>
+            <option>2</option>
+            <option>13</option>
+            <option>30</option>
+            <option>31</option>
+        </section>
+
+
+        <br>
+        
+        <label for="terms">I agree to the terms and conditions
+                <input type="checkbox" id="terms" name="terms" checked>
+        </label>
+        <br>
+        <button>Submit</button>
+    </form>
 </body>
+
 </html>

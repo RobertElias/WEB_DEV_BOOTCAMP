@@ -12,62 +12,70 @@
     <h1>Register</h1>
     <form action="/basicTags.html" method="post">
         <label for="firstname" id="firstname">First Name:</label>
-        <input name="firsname" type="text" placeholder="firstname" required>
+        <input name="firsname" type="text" placeholder="John" required>
 
         <label for="lastname" id="lastname">Last Name:</label>
-        <input name="lastname" type="text" placeholder="lastname" required>
+        <input name="lastname" type="text" placeholder="Smith" required>
         <br>
-        <label for="male">Male:</label>
-        <input name="gender" id="male" type="radio" value="MALE">
+        <div>
+            <label for="male">Male:</label>
+            <input name="gender" id="male" type="radio" value="MALE">
 
-        <label for="female">Female:</label>
-        <input name="gender" id="female" type="radio" value="FEMALE">
+            <label for="female">Female:</label>
+            <input name="gender" id="female" type="radio" value="FEMALE">
 
-        <label for="other">Other:</label>
-        <input name="gender" id="other" type="radio" value="OTHER">
-        <br>
+            <label for="other">Other:</label>
+            <input name="gender" id="other" type="radio" value="OTHER">
+        </div>
 
-        <label for="email">Email:</label>
-        <input id="email" type="email" placeholder="email" required>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="email" required>
 
-        <label for="password" id="password">Password:</label>
-        <input name="password" type="password" placeholder="password" required=[5,10]>
-        <br>
-        <label>Birthday:</label>
+            <label for="password" id="password">Password:</label>
+            <input name="password" type="password" placeholder="password" pattern=".{5,10}" required title="5 to 10 characters">
+        </div>
+
+
+        <div>
+            <label>Birthday:</label>
+
+            <select name="MONTH">
+                <option value="Month">Month</option>
+                <option value="January">January</option>
+                <option value="July">July</option>
+                <option value="September">September</option>
+                <option value="August">August</option>
+                <option value="October">October</option>
+            </select>
+            <select name="DAY">
+                <option value="DAY">Day</option>
+                <option value="1">1</option>
+                <option value="2">4</option>
+                <option value="13">13</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <select>
+                <option>Year</option>
+                <option>2011</option>
+                <option>1976</option>
+                <option>1979</option>
+                <option>1776</option>
+                <option>1995</option>
+            </select>
+
+        </div>
+
+
+
+        <div>
+            <label for="terms">I agree to the terms and conditions</label>
+            <input type="checkbox" id="terms" name="terms" checked>
+        </div>
+
+
         
-        <select name="MONTH">
-            <option value="Month">Month</option>
-            <option value="January">January</option>
-            <option value="July">July</option>
-            <option value="September">September</option>
-            <option value="August">August</option>
-            <option value="October">October</option>
-        </select>
-        <select name="DAY">
-            <option value="DAY">Day</option>
-            <option value="1">1</option>
-            <option value="2">4</option>
-            <option value="13">13</option>
-            <option value="30">30</option>
-            <option value="31">31</option>
-        </select>
-        <select>
-            <option>Year</option>
-            <option>2011</option>
-            <option>1976</option>
-            <option>1979</option>
-            <option>1776</option>
-            <option>1995</option>
-        </select>
-
-
-
-        <br>
-        
-        <label for="terms">I agree to the terms and conditions
-                <input type="checkbox" id="terms" name="terms" checked>
-        </label>
-        <br>
         <button>Submit</button>
     </form>
 </body>

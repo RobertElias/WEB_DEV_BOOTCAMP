@@ -1,11 +1,18 @@
 body{
-    background: url(https://cdn.shopify.com/s/files/1/0742/6023/products/Cherry_wood_full_sheet_large.jpg?v=1440787856);
-    background-size: cover;
+    background: #681d26;
+    /* background: url(https://cdn.shopify.com/s/files/1/0742/6023/products/Cherry_wood_full_sheet_large.jpg?v=1440787856); */
+    /* background-size: cover; */
 }
     h1{
     color:#72a0ea;
-}
+    border-color: gold;
+    border-width: 5px;
+    border-style: solid;
 
+}
+/* width
+   color
+   style */
 h2{
     color: rgb(133, 140, 8);
 }
@@ -14,7 +21,14 @@ h3{
     color: #112eadad;
 }
 
-div{
-    
+h4{
+    color: rgb(133, 140, 8);
+    border-color: gold;
+    border-width: 5px;
+    border-style: solid;
     
 }
+#special {
+    color: yellow;
+  }
+  

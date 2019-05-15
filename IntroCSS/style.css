@@ -1,7 +1,8 @@
 body{
-    background: #681d26;
+    background: url(https://cdn.shopify.com/s/files/1/0742/6023/products/Cherry_wood_full_sheet_large.jpg?v=1440787856);
+    background-size: cover;
 }
-h1{
+    h1{
     color:#72a0ea;
 }
 
@@ -13,6 +14,7 @@ h3{
     color: #112eadad;
 }
 
-h4{
-    background: rgb(158, 163, 37);
+div{
+    
+    
 }

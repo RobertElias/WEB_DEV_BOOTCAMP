@@ -1,3 +1,6 @@
+body{
+    background: #681d26;
+}
 h1{
     color:#72a0ea;
 }
@@ -8,4 +11,8 @@ h2{
 
 h3{
     color: #112eadad;
+}
+
+h4{
+    background: rgb(158, 163, 37);
 }

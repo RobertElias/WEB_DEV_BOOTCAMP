@@ -1,0 +1,38 @@
+/*Element  */
+li{
+
+}
+
+/* class */
+.hello{
+
+}
+
+/*id*/
+#name {
+
+}
+/* Star */
+* {
+    margin: 0;
+    padding: 0;
+   }
+/*Descending Selector*/
+li a {
+    text-decoration: none;
+  }
+
+/*Adjacent Selector*/
+ul + p {
+    color: red;
+ }
+
+/*Attribute Selector*/
+a[title] {
+    color: green;
+ }
+
+/*nth of type*/
+li:nth-child(3) {
+    color: red;
+ }

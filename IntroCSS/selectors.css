@@ -27,6 +27,14 @@ p{
     background-color: yellow;
 }
 /*Make all inputs have a 3px red border*/
+input[type="text"]{
+    border: 3px;
+    color: red;
+}
+input[type="password"]{
+    border: 3px;
+    color: red;
+}
 
 
 /* Give everything with the class 'hello' a white background*/

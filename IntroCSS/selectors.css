@@ -18,7 +18,7 @@ h2{
 
 /* Make all <li> elements blue(pick your own hexadecimal blue)*/ 
 li{
-    color: blue;
+    color:#0040FF;
 }
 
 /*Change the background on every paragraph to be yellow*/
@@ -27,30 +27,25 @@ p{
     background-color: yellow;
 }
 /*Make all inputs have a 3px red border*/
-input[type="text"]{
-    border: 3px;
-    color: red;
+input{
+    border: 3px solid red;
+    border-color: red;
+    border-width: 3px;
+    border-style: solid; 
 }
-input[type="password"]{
-    border: 3px;
-    color: red;
-}
-
 
 /* Give everything with the class 'hello' a white background*/
 .hello {
-    background-color: white;
+    background: white;
 }
 
 /* Give the element with id 'special' a 2px solid blue border(pick your own rgb blue)*/
 #special {
-    border-color: blue;
-    border-width: 2px;
-    border-style: solid;
+    border: 2px solid rgb(0,100,200);
 }
 
 /*Make all the <p>'s that are nested inside of divs 25px font(font-size: 25px)*/
-p, .div {
+div p {
     font-size: 25px;
 }
 
@@ -61,13 +56,19 @@ input[type=text]{
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
 
-p:nth-child(3){
+div:nth-of-type(3) p{
     background: pink;
 }
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
-
-
+div:nth-of-type(3) p:nth-of-type(2){
+    border: 5px solid white;
+}
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
+
+p:nth-of-type(3n){
+    font-style: em;
+    font-size: 20px;
+}
 
 /* ****************************************************************** */
 
@@ -75,10 +76,14 @@ p:nth-child(3){
 /*You may need to research some other selectors and properties*/
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-
+input:checked{
+    margin-left: 50px;
+}
 
 /* Make the <label> elements all UPPERCASE without changing the HTML(definitely look this one up*/
-
+label {
+    text-transform: uppercase;
+}
 
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
 

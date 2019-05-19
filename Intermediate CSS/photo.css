@@ -1,11 +1,4 @@
-div {
-    width: 100px;
-}
-
-#one {
-    background-color: red;
-}
-
-#two {
-    background-color: purple;
+img {
+    width: 30%;
+    float: left;
 }

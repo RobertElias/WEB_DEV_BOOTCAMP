@@ -5,9 +5,13 @@ img {
 }
 
 p{
-    font-family: raleway;
+    font-family: Raleway;
     margin-left: 1.66%;
     font-size: 23px;
     font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgba(221, 183, 183, 0.979);
+    width: 30%;
+    padding-bottom: 20px; 
     /* text-align: center; */
 }

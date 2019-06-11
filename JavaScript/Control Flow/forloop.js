@@ -8,3 +8,10 @@ while(count < 6) {
     console.log("count is: " + count);
     count++;
 }
+
+var str = "hello";
+
+for(var i = 0; i , str.length; i++){
+    console.log(str[i]);
+}
+

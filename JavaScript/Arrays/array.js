@@ -83,7 +83,23 @@ console.log(months);
 
 var nums = [1,2,2, "a", "b", 445, 34]
 
-var letters = num.slice(3,5)
+// var letters = num.slice(3,5);
 
 
 
+var friendGroups = [
+    ["Harry", "Ron", "Hermione"],
+    ["Malfoy", "Crabbe", "Goyle"],
+    ["Mooney", "Wormtail", "Prongs"]
+];
+
+friendGroups[2][0]
+
+window.setTimeout(function() {
+    // put all of your JS code from the lecture here
+  }, 500);
+
+  var todos = ["Buy New Turtle"];
+window.setTimeout(function() {
+  // put all the rest of your JS code from the lecture here
+}, 500);

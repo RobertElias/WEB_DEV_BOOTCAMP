@@ -63,3 +63,24 @@ var dog = {
     breed: "Lab"
 }
 
+//Objects quiz
+
+var someObject = {};
+someObject._name = "Hedwig";
+
+someObject.age = 6;
+
+var prop = "color"
+someObject[prop] = "red";
+
+//someObject.123 = true; unable to use dot notation
+
+var someObject = {
+  friends: [
+    {name: "Malfoy"},
+    {name: "Crabbe"},
+    {name: "Goyle"}
+  ],
+  color: "baby blue",
+  isEvil: true  
+};

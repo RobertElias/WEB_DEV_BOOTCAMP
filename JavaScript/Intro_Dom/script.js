@@ -1,15 +1,29 @@
-var h1 = document.querySelector("h1");
+// var h1 = document.querySelector("h1");
 
-h1.style.color = "pink";
+// h1.style.color = "pink";
 
 
-document.URL;
-document.head;
-document.body;
-document.links;
+// document.URL;
+// document.head;
+// document.body;
+// document.links;
 
-document.getElementById()
-document.getElementsByClassName()
-document.getElementsByTagName()
-document.querySelector()
-document.querySelectorAll()
+
+//documennt.getElementByTagName()
+var tags = documennt.getElementByTagName("li");
+console.log(tags[0]);
+
+// document.getElementsByClassName()
+var tags = doucument.getElementsByClassName('bolded');
+console.log(tags[0]);
+
+// document.getElementsById()
+var tag = document.getElementById("highlight");
+console.log(tags[0]);
+// document.querySelector()
+var tag = document.querySelector("#highlight");
+var tag = document.querySelector(".bolded");
+
+
+// document.querySelectorAll()
+var tag = document.querySelector(".bolded");
